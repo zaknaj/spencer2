@@ -46,13 +46,15 @@
   input,
   select {
     margin-bottom: 8px;
-    padding: 0 18px;
+    padding: 18px;
     border: 1px solid #ddd;
     border-radius: 5px;
     max-width: 100%;
-    height: 50px;
+    /* height: 50px; */
     box-sizing: border-box;
     width: 100%;
+  }
+  select {
     appearance: none;
   }
 
