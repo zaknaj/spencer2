@@ -1,0 +1,14 @@
+{
+  "background_color": "pink",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Spencer",
+  "short_name": "Spencer",
+  "start_url": "/"
+}
