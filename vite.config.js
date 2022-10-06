@@ -11,6 +11,25 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
+      manifest: {
+        name: "Spencer",
+        short_name: "Spencer",
+        description: "Spencer - Expenses management app",
+        theme_color: "#ff0000",
+        background_color: "#ffffff",
+        icons: [
+          {
+            src: "pwa-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "pwa-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
     }),
   ],
 });
