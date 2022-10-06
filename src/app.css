@@ -1,0 +1,27 @@
+/* resets */
+
+html,
+body,
+#app,
+#main {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+button,
+select {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: transparent;
+}
+
+/* --- */
